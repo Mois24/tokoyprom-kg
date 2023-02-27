@@ -1,0 +1,323 @@
+/*-------------------------------Header------------------------------------*/
+.header {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 50;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 70px;
+}
+.header__info:not(:last-child) {
+    margin: 0px 0px 5px 0px;
+}
+.header-text {
+    font-size: 20px;
+    font-weight: 700;
+    color: inherit;
+}
+/*---------------------Header For Subtitle-------------------------*/
+.header-block {
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+.wool__header {
+    padding: 30px 0px 0px 0px;
+}
+.header-block__title {
+    line-height: 142%;
+    font-size: 40px;
+    font-weight: 700;
+}
+.header-block__title:not(:last-child) {
+    margin: 0px 0px 10px 0px;
+}
+.header-block__sub-title {
+    line-height: 142%;
+    font-size: 24px;
+    color: #737373;
+}
+@media (max-width: 992px) {
+    .third-block__title {
+        font-size: 30px;
+    }
+}
+/*------------------------Main-------------------------------------*/
+.page {
+    /* Наш main может увеличиваться */
+    flex: 1 1 auto;
+}
+.third-block {
+    position: relative;
+}
+.third-block__body {
+    max-width: 100%;
+    position: relative;
+    padding: 175px 0px 175px 0px;
+    z-index: 2;
+    text-align: center;
+}
+/* Обращаемя ко всем объектам первого уровня, кроме последнего (отступ снизу 35 px) */
+.third-block__body > *:not(:last-child) {
+    margin: 0px 0px 15px 0px;
+}
+.third-block__title {
+    font-size: 100px;
+    line-height: calc(58 / 58 * 100%);
+    letter-spacing: 0.2px;
+    font-weight: 800;
+}
+
+.third-block__text {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: calc(30 / 20 * 100%);
+    margin: 50px 0px 0px 10px;
+}
+
+.third-block__image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+}
+/*------------------------------------Basket-----------------------------------------------*/
+.wool {
+    padding: 40px 0px 80px 0px;
+    background: #FDF5E6;
+}
+.wool__header {
+    margin: 0px 0px 50px 0px;
+ }
+.wool__body {
+    display: flex;
+    align-items: flex-start;
+}
+.wool__video {
+    flex: 0 0 55%;
+    position: relative;
+    padding: 0px 0px 45% 0px;
+}
+.wool__video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.wool__content {
+    flex: 1 1 auto;
+    padding: 0px 0px 0px 50px;
+}
+.wool__title {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 110%;
+}
+.wool__title:not(:last-child) {
+    margin: 0px 0px 10px 0px;
+}
+.wool__text {
+    font-size: 20px;
+    line-height: 110%;
+}
+.wool__text ul li {
+    list-style-type: disc;
+    padding: 0px 0px 4px 0px;
+}
+.wool__top:not(:last-child) {
+    margin: 0px 0px 50px 0px;
+}
+@media (max-width: 975px) and (min-width: 950px) {
+    .wool__title {
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 100%;
+    }
+    .wool__text {
+        font-size: 15px;
+        line-height: 110%;
+    }
+}
+@media (max-width: 997px) and (min-width: 975px) {
+    .wool__title {
+        font-weight: 800;
+        font-size: 27px;
+        line-height: 100%;
+    }
+    .wool__text {
+        font-size: 17px;
+        line-height: 110%;
+    }
+}
+@media (max-width: 1035px) and (min-width: 997px) {
+    .wool__title {
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 100%;
+    }
+    .wool__text {
+        font-size: 19px;
+        line-height: 110%;
+    }
+    .wool__text ul li {
+        list-style-type: none;
+        padding: 0px 0px 3px 0px;
+    }
+}
+@media (max-width: 1080px) {
+    .wool__content {
+        padding: 0px 0px 0px 50px;
+    }
+}
+@media (max-width: 950px) {
+    .wool {
+        padding: 20px 0px 40px 0px;
+    }
+    .wool__header {
+        margin: 0px 0px 50px 0px;
+    }
+    .wool__body {
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+    .wool__content {
+        margin: 0px 0px 0px 0px;
+    }
+    .wool__video {
+        padding: 0px 0px 56.25% 0px;
+    }
+    .wool__video:not(:last-child) {
+        margin: 50px 0px 0px 0px;
+    }
+    .wool__title {
+        font-size: 24px;
+    }
+}
+/*------------------------------------second part of manufacturing wood wool---------------------------------*/
+.info {
+    padding: 40px 0px 30px 0px;
+    background: #FFEFD5;
+}
+.info__header {
+   margin: 0px 0px 30px 0px;
+}
+.info__body {
+    display: flex;
+    align-items: flex-start;
+}
+.info__content {
+    flex: 1 1 auto;
+}
+.info__pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info__pic img {
+    width: 75%;
+    height: 65vh;
+}
+@media (max-width: 950px) {
+    .info {
+        padding: 20px 0px 20px 0px;
+    }
+    .info__header {
+        margin: 0px 0px 50px 0px;
+    }
+    .info__body {
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+    .info__content {
+        margin: 0px 0px 0px 0px;
+    }
+    .info__pic img {
+        width: 70%;
+        height: 60vh;
+    }
+}
+@media (max-width: 950px) {
+    .info__pic img {
+        width: 80%;
+        height: 60vh;
+    }
+}
+.description__content {
+    flex: 1 1 50%;
+    padding: 0px 50px 0px 0px;
+}
+.description__title {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 110%;
+}
+.description__title:not(:last-child) {
+    margin: 0px 0px 10px 0px;
+}
+.description__text {
+    font-size: 20px;
+    line-height: 110%;
+    height: 100%;
+}
+.description__text ul {
+    margin: 0px 0px 20px 0px;
+}
+.description__text ul li {
+    list-style-type: disc;
+    padding: 0px 0px 10px 0px;
+}
+.description__text ul p {
+    font-weight: bold;
+    margin: 0px 0px 10px 0px;
+}
+.description__top {
+    margin: 0px 0px 50px 0px;
+}
+@media (max-width: 975px) and (min-width: 950px) {
+    .description__title {
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 100%;
+    }
+    .description__text {
+        font-size: 16px;
+        line-height: 110%;
+    }
+}
+@media (max-width: 1035px) and (min-width: 975px) {
+    .description__title {
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 100%;
+    }
+    .description__text {
+        font-size: 18px;
+        line-height: 110%;
+    }
+}
+@media (max-width: 1080px) {
+    .description__content {
+        padding: 0px 0px 0px 50px;
+    }
+}
+@media (max-width: 950px) {
+    .description__content {
+        margin: 0px 0px 0px 0px;
+    }
+    .description__title {
+        font-size: 24px;
+    }
+}
