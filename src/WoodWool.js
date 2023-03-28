@@ -19,7 +19,7 @@ class WoodWool extends Component {
             <section class="page__wool wool">
                 <div class="wool__container _container">
                     <div class="wool__header header-block">
-                        <h2 class="header-block__title">Manufacture Wood Wool</h2>
+                        <h2 class="header-block__title">Wood Wool manufacturing process</h2>
                         <div class="header-block__sub-title">The main material for this product is healthy softwood and hardwood.</div>
                     </div>
                     <div class="wool__body">
@@ -48,7 +48,7 @@ class WoodWool extends Component {
             <section class="page__info info">
                 <div class="info__container _container">
                     <div class="info__header header-block">
-                        <h2 class="header-block__title">Manufacture Wood Wool</h2>
+                        <h2 class="header-block__title">Manufacturing of Wood Wool</h2>
                         <div class="header-block__sub-title">Wool made of wood is distinguished by ecology, unpretentiousness, aesthetic appearance.</div>
                     </div>
                     <div class="info__body">

@@ -1,5 +1,7 @@
+import { t } from "i18next";
 import React, {Component} from "react";
 import "./WoodPellets.css";
+
 
 class WoodPellets extends Component {
     render() {
@@ -8,8 +10,8 @@ class WoodPellets extends Component {
             <div class="page__main-block main-block">
                 <div class="main-block__container _container">
                     <div class="main-block__body">
-                        <h1 class="main-block__title">Wood pellets </h1>
-                        <div class="main-block__text">Pellets are a granular type of solid fuel of a cylindrical shape, made from compressed agricultural waste from the woodworking industry.</div>
+                        <h1 class="main-block__title"> {this.props.t('firstPage')} </h1>
+                        <div class="main-block__text">{this.props.t('mainDescription')}</div>
                     </div>
                 </div>
                 <div class="main-block__image _ibg">
@@ -19,7 +21,7 @@ class WoodPellets extends Component {
             <section class="page__practise practise">
                 <div class="practise__container _container">
                     <div class="practise__header header-block">
-                        <h2 class="header-block__title">Advantages of using pellets - wood pellets</h2>
+                        <h2 class="header-block__title">{this.props.t('advantages')}</h2>
                     </div>
                     <div class="practise__body">
                         <div class="practise__column">
