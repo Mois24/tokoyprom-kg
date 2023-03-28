@@ -29,25 +29,11 @@ class WoodPellets extends Component {
                                 <div class="item-practise__content">
                                     <div class="item-practise__link">
                                         <h4 class="item-practise__title">
-                                                High heat transfer
+                                            {this.props.t('advantagesFirst')} 
                                         </h4>
                                     </div>
                                     <div class="item-practse__text">
-                                        Due to the high density, the heat transfer of pellets is several times higher compared conventional wood or coal. An important role is also played by the low moisture content of the pellets, this type of fuel contains no more than 8% moisture, while for wood this figure can reach 50%. 
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="practise__column">
-                            <article class="practise__item item-practise">
-                                <div class="item-practise__content">
-                                    <a href="" class="item-practise__link">
-                                        <h4 class="item-practise__title">
-                                            Environmental friendliness
-                                        </h4>
-                                    </a>
-                                    <div class="item-practse__text">
-                                        Wood pellets can also be distinguished in terms of combustion rates, as they are considerably cleaner than traditional fuels. With the same volume burnt, pellets produce 30 times less carbon monoxide and form ash up to 1% of the burned volume, which can later be used as fertilizer for plants. 
+                                        {this.props.t('advantagesFirstDescription')}  
                                     </div>
                                 </div>
                             </article>
@@ -57,11 +43,11 @@ class WoodPellets extends Component {
                                 <div class="item-practise__content">
                                     <a href="" class="item-practise__link">
                                         <h4 class="item-practise__title">
-                                            Security
+                                            {this.props.t('advantagesSecond')} 
                                         </h4>
                                     </a>
                                     <div class="item-practse__text">
-                                        Pellets are not subject to self-ignition. Gas, diesel fuel, fuel oil, coal can easily ignite, have a specific smell, seriously pollute the atmosphere if used improperly, so they must be handled with care. Pellets, due to their density, which they received during the pressing process, as well as the minimum content of fine debris and dust, are the best solution in terms of safety for people working with them. 
+                                        {this.props.t('advantagesSecondDescription')} 
                                     </div>
                                 </div>
                             </article>
@@ -71,11 +57,25 @@ class WoodPellets extends Component {
                                 <div class="item-practise__content">
                                     <a href="" class="item-practise__link">
                                         <h4 class="item-practise__title">
-                                            Ease of storage
+                                            {this.props.t('advantagesThird')}
                                         </h4>
                                     </a>
                                     <div class="item-practse__text">
-                                        Wood pellets also have a relatively high bulk density, so their transportation and storage are more optimal than for traditional fuels. The production of pellets in Kyrgyz Republic is gaining momentum every year. Our company offers its customers low wholesale prices and delivery to the place. Convenient packaging of pellets (bags or big bags) allows us to quickly and reliably carry out the shipment process in a short time.  
+                                        {this.props.t('advantagesThirdDescription')} 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="practise__column">
+                            <article class="practise__item item-practise">
+                                <div class="item-practise__content">
+                                    <a href="" class="item-practise__link">
+                                        <h4 class="item-practise__title">
+                                            {this.props.t('advantagesFourth')} 
+                                        </h4>
+                                    </a>
+                                    <div class="item-practse__text">
+                                        {this.props.t('advantagesFourthDescription')}  
                                     </div>
                                 </div>
                             </article>
@@ -86,14 +86,14 @@ class WoodPellets extends Component {
             <section class="page__practise images">
                 <div class="practise__container _container">
                     <div class="practise__header header-block">
-                        <h2 class="header-block__title">Why prefer to work with us?</h2>
+                        <h2 class="header-block__title">{this.props.t('prefer')} </h2>
                     <div class="practise__body">
                         <div class="images__column">
                             <article class="practise__item item-practise">
                                 <div class="item-practise__content">
                                     <div class="item-practise__link">
                                         <h4 class="item-practise__title">
-                                            Quick Production
+                                            {this.props.t('preferFirst')}
                                         </h4>
                                     </div>
                                 </div>
@@ -107,7 +107,7 @@ class WoodPellets extends Component {
                                 <div class="item-practise__content">
                                     <div class="item-practise__link">
                                         <h4 class="item-practise__title">
-                                            Eco-Friendly Raw Materials
+                                            {this.props.t('preferSecond')}
                                         </h4>
                                     </div>
                                 </div>
@@ -121,7 +121,7 @@ class WoodPellets extends Component {
                                 <div class="item-practise__content">
                                     <div class="item-practise__link">
                                         <h4 class="item-practise__title">
-                                            Certified Production
+                                            {this.props.t('preferThird')}
                                         </h4>
                                     </div>
                                 </div>
@@ -135,7 +135,7 @@ class WoodPellets extends Component {
                                 <div class="item-practise__content">
                                     <div class="item-practise__link">
                                         <h4 class="item-practise__title">
-                                            Regular Quality Control
+                                            {this.props.t('preferFourth')}
                                         </h4>
                                     </div>
                                 </div>
@@ -149,7 +149,7 @@ class WoodPellets extends Component {
                                 <div class="item-practise__content">
                                     <div class="item-practise__link">
                                         <h4 class="item-practise__title">
-                                            Fast Deliveries
+                                            {this.props.t('preferFifth')}
                                         </h4>
                                     </div>
                                 </div>
@@ -163,7 +163,7 @@ class WoodPellets extends Component {
                                 <div class="item-practise__content">
                                     <div class="item-practise__link">
                                         <h4 class="item-practise__title">
-                                            High Efficiency Of Heat
+                                            {this.props.t('preferSixth')}
                                         </h4>
                                     </div>
                                 </div>
@@ -179,11 +179,8 @@ class WoodPellets extends Component {
             <section class="page__whoweare whoweare">
                 <div class="whoweare__container _container">
                     <div class="whoweare__header header-block">
-                        <h2 class="header-block__title">Pellet manufacturing technology </h2>
-                        <div class="header-block__sub-title">The production of pellets includes pressing of pre-dried to a certain moisture content and 
-                            crushed to a given fraction of waste under a pressure of about 300 atmospheres. At the same time, 
-                            the use of glue and other additives is prohibited (sometimes dishonest dealers add sand and other 
-                            non-combustible impurities to them to increase the weight of the granules, and synthetic polymers to ensure gluing abilities). </div>
+                        <h2 class="header-block__title">{this.props.t('manufacturingTechnology')} </h2>
+                        <div class="header-block__sub-title">{this.props.t('manufacturingTechnologyDescription')} </div>
                     </div>
                     <div class="whoweare__body">
                         <div class="whoweare__video">
@@ -191,17 +188,15 @@ class WoodPellets extends Component {
                         </div>
                         <div class="whoweare__content">
                             <div class="whoweare__top">
-                                <h2 class="whoweare__title">High-Quality Materials</h2>
+                                <h2 class="whoweare__title">{this.props.t('highQualityMaterials')}</h2>
                                 <div class="whoweare__text">
-                                    <ul>The main materials for the manufacture of fuel pellets are:</ul>
-                                    <li class="whoweare__text-list">sawdust, wood chips, bark, slabs of coniferous and deciduous (best option) wood species;</li>
-                                    <li>peat;</li>
-                                    <li>sunflower husk (the most common solution), rapeseed (the best option), straw of various grain crops, corn, husks, cake and much more;</li>
-                                    <li>charcoal;</li>
-                                    <li>household waste.</li><br/>
-                                    <p>The basic binder is a substance of plant origin - lignin, a natural polymer contained in almost any plant, 
-                                    capable of plasticizing during granulation under the influence of a sufficiently high operating temperature.
-                                    </p>
+                                    <ul>{this.props.t('qualityHeader')}</ul>
+                                    <li class="whoweare__text-list">{this.props.t('qualityFirst')}</li>
+                                    <li>{this.props.t('qualitySecond')}</li>
+                                    <li>{this.props.t('qualityThird')}</li>
+                                    <li>{this.props.t('qualityFourth')}</li>
+                                    <li>{this.props.t('qualityFifth')}</li><br/>
+                                    <p>{this.props.t('qualityFinished')}</p>
                                 </div>
                             </div>
                         </div>
